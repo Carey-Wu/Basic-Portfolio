@@ -2,19 +2,47 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Carey Wu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+            
+    <title>Contact Carey Wu</title>
+            
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\css\style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Carey Wu</h1>
-\   <h1>Contact</h1>
-    <h2>Name</h2>
-    <h2>Email</h2>
-    <h3>Message</h3>
+        <header >  
+                <h1 class="name">Carey Wu</h1>
+                <h3 class="buttonHeader">About | Portfolio | Contact</h3>
+            </header>
+        
+            <div class="contactme">
+                <section id="content">
+        
+                        <section id="contacttitle">
+                            <h1 class="contact-title">Contact</h1>
+                        </section>
+                
+                    <div>
+                        <form action="/action_page.php">
+                            <h3 class="formheaders"><label for="name">Name</label></h3>
+                            <input type="text" id="name" name="Name" placeholder="Your name..">
 
-
-</body>
-</html>
+                            <h3 class="formheaders"><label for="email">Email</label></h3>
+                            <input type="text" id="email" name="Email" placeholder="Your email.">
+                            
+                            <h3 class="formheaders"><label for="message">Message</label></h3>
+                            <textarea name="Message" id="message" cols="125.5" rows="10"></textarea>
+                        </form>
+                        <br>  
+                            <button class="submit">Submit</button>
+                    </div>
+                    
+                        
+                </section> 
+        
+            </div>
+            
+            <footer>
+                <p class="copyright">Copyright <i class="far fa-copyright"></i></p> 
+            </footer>
+        </body>
+    </html>
